@@ -1,4 +1,10 @@
 # Alexa 智能机器听觉系统：桌面级具身智能管家
+![Architecture](https://img.shields.io/badge/Architecture-Streaming_Full--Duplex-007ACC?style=flat-square)
+![LLM](https://img.shields.io/badge/LLM-Qwen--Omni--Turbo-6151A6?style=flat-square)
+![ASR](https://img.shields.io/badge/ASR-SenseVoice-FF6B6B?style=flat-square)
+![Voiceprint](https://img.shields.io/badge/Voiceprint-speech__campplus-FF9800?style=flat-square)
+![Wake Word](https://img.shields.io/badge/Wake_Word-openwakeword-E91E63?style=flat-square)
+![Framework](https://img.shields.io/badge/Framework-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 本项目是一个基于流式全双工架构的桌面级智能语音助手。通过集成高精度 ASR、动态 LLM 路由以及多线程 TTS 预加载技术，系统实现了无缝的自然语言交互，并针对“科研数据编录”与“智能会议协作”两大高频专业场景进行了深度适配与落地。
 
@@ -35,10 +41,10 @@
 
 | 维度 | 实测结论 | 达标评价 |
 | :--- | :--- | :--- |
-| **响应延时** | [cite_start]首字回复延迟 < 1s，交互丝滑无断续 [cite: 2] | 优秀 |
-| **ASR 准确性** | [cite_start]支持多语种与复杂环境下高准确率转写 [cite: 2] | 达标 |
-| **运行稳定性** | [cite_start]支持超过 30 分钟的连续稳定在线交互 [cite: 2] | 优秀 |
-| **数据安全性** | [cite_start]采用 `utf-8-sig` 编码与物理拦截逻辑，防乱码防幻觉 [cite: 1, 2] | 优异 |
+| **响应延时** | 首字回复延迟 < 1s，交互丝滑无断续 | 优秀 |
+| **ASR 准确性** | 支持多语种与复杂环境下高准确率转写 | 达标 |
+| **运行稳定性** | 支持超过 30 分钟的连续稳定在线交互 | 优秀 |
+| **数据安全性** | 采用 `utf-8-sig` 编码与物理拦截逻辑，防乱码防幻觉 | 优异 |
 
 ## 🚀 快速开始
 
